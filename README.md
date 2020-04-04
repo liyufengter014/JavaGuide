@@ -10,8 +10,6 @@
 更多原创内容和干货分享：
 
 1. [公众号—JavaGuide](#公众号) ： 最新原创文章+免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源）
-2. [微信](#联系我) ：如果需要和我交流的话可以加我私人微信(ps: 有问题的话也可以问，我会尽量回答大家，我很随和的，哈哈！另外，账号快加满了)
-3. [B站-Guide哥](https://space.bilibili.com/504390397)：（各种干货视频和生活向视频，来个一键三连可好！）
 
 Github用户如果访问速度缓慢的话，可以转移到[码云](https://gitee.com/SnailClimb/JavaGuide )查看，或者[在线阅读](https://snailclimb.gitee.io/javaguide )。
 
@@ -47,13 +45,14 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 - [网络](#网络)
 - [操作系统](#操作系统)
     - [Linux](#linux)
-- [数据结构与算法](#数据结构与算法)
+- **[数据结构与算法](#数据结构与算法)**
     - [数据结构](#数据结构)
     - [算法](#算法)
 - [数据库](#数据库)
     - [MySQL](#mysql)
     - [Redis](#redis)
 - [系统设计](#系统设计)
+    - [必知](#必知)
     - [常用框架](#常用框架)
         - [Spring](#spring)
         - [SpringBoot](#springboot)
@@ -143,7 +142,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 1. **I/O** ：[BIO,NIO,AIO 总结 ](docs/java/BIO-NIO-AIO.md)
 2. **Java 8**  ：[Java 8 新特性总结](docs/java/What's%20New%20in%20JDK8/Java8Tutorial.md)、[Java 8 学习资源推荐](docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)、[Java8 forEach 指南](docs/java/What's%20New%20in%20JDK8/Java8foreach指南.md)
-3.  **[Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)**
+3.  Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)** 、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](docs/java/java-naming-conventions.md)
 4. 设计模式 :[设计模式系列文章](docs/system-design/设计模式.md)
 
 ## 网络
@@ -154,11 +153,11 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 ## 操作系统
 
-操作系统相关概念总结
+[最硬核的操作系统常见问题总结！](docs/operating-system/basis.md)
 
 ### Linux
 
-* [后端程序员必备的 Linux 基础知识](docs/operating-system/后端程序员必备的Linux基础知识.md)  
+* [后端程序员必备的 Linux 基础知识](docs/operating-system/linux.md)  
 * [Shell 编程入门](docs/operating-system/Shell.md) 
 
 ## 数据结构与算法
@@ -170,12 +169,13 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 ### 算法
 
-- [算法学习资源推荐](docs/dataStructures-algorithms/算法学习资源推荐.md)  
-- [几道常见的字符串算法题总结 ](docs/dataStructures-algorithms/几道常见的子符串算法题.md)
-- [几道常见的链表算法题总结 ](docs/dataStructures-algorithms/几道常见的链表算法题.md)   
-- [剑指offer部分编程题](docs/dataStructures-algorithms/剑指offer部分编程题.md)
-- [公司真题](docs/dataStructures-algorithms/公司真题.md)
-- [回溯算法经典案例之N皇后问题](docs/dataStructures-algorithms/Backtracking-NQueens.md)
+- [硬核的算法学习书籍+资源推荐](docs/dataStructures-algorithms/算法学习资源推荐.md)  
+- 常见算法问题总结：
+  - [几道常见的字符串算法题总结 ](docs/dataStructures-algorithms/几道常见的子符串算法题.md)
+  - [几道常见的链表算法题总结 ](docs/dataStructures-algorithms/几道常见的链表算法题.md)   
+  - [剑指offer部分编程题](docs/dataStructures-algorithms/剑指offer部分编程题.md)
+  - [公司真题](docs/dataStructures-algorithms/公司真题.md)
+  - [回溯算法经典案例之N皇后问题](docs/dataStructures-algorithms/Backtracking-NQueens.md)
 
 ## 数据库
 
@@ -193,6 +193,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 * [Redis 常见问题总结](docs/database/Redis/Redis.md)
 * **Redis 系列文章合集：**
+
   1. [5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)
   2. [跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)
   3. [分布式锁深入探究](docs/database/Redis/redis-collection/Redis(3)——分布式锁深入探究.md) 、 [Redlock分布式锁](docs/database/Redis/Redlock分布式锁.md) 、[如何做可靠的分布式锁，Redlock真的可行么](docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
@@ -204,6 +205,10 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
   9. [史上最强【集群】入门实践教程](docs/database/Redis/redis-collection/Redis(9)——集群入门实践教程.md)
 
 ## 系统设计
+
+### 必知
+
+1. **[RestFul API 简明教程](docs/system-design/restful-api.md)**
 
 ### 常用框架
 
